@@ -1,0 +1,31 @@
+.table {
+	margin-top: 50px;
+	margin-bottom: 150px;
+	width: 100%;
+	max-width: 760px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.table-column {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+	text-align: left;
+}
+
+.table-column + .table-column {
+	margin-left: 20px;
+}
+
+.table-column-title {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.table-column-item + .table-column-item {
+	margin-top: 5px;
+}

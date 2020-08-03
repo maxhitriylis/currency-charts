@@ -2,8 +2,12 @@ import Highcharts from 'highcharts';
 
 export default (dataUSD, dataEUR) => {
 	return {
+		chart: {
+			reflow: true,
+			zoomType: 'x',
+		},
 		title: {
-			text: 'USD to EUR and EUR to USD exchange rate over time',
+			text: 'RUB to EUR and RUB to USD exchange rate over time',
 		},
 		xAxis: {
 			type: 'datetime',
@@ -18,12 +22,14 @@ export default (dataUSD, dataEUR) => {
 		},
 		series: [
 			{
-				name: 'USD to EUR',
+				name: 'RUB to USD',
 				data: dataUSD,
+				threshold: null,
 			},
 			{
-				name: 'EUR to USD',
+				name: 'RUB to EUR',
 				data: dataEUR,
+				threshold: null,
 			},
 		],
 	};

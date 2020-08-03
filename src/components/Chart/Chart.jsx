@@ -21,15 +21,15 @@ const Chart = () => {
 
 				return setIsRunning(false);
 			}
-			const resultEUR = await fetch(`https://api.exchangeratesapi.io/${datesISO[count]}?base=USD&symbols=EUR`);
-			const resultUSD = await fetch(`https://api.exchangeratesapi.io/${datesISO[count]}?base=EUR&symbols=USD`);
+			const resultEUR = await fetch(`https://api.exchangeratesapi.io/${datesISO[count]}?base=EUR&symbols=RUB`);
+			const resultUSD = await fetch(`https://api.exchangeratesapi.io/${datesISO[count]}?base=USD&symbols=RUB`);
 			const {
 				date: dateEUR,
-				rates: { EUR: ratesEUR },
+				rates: { RUB: ratesEUR },
 			} = await resultEUR.json();
 			const {
 				date: dateUSD,
-				rates: { USD: ratesUSD },
+				rates: { RUB: ratesUSD },
 			} = await resultUSD.json();
 			dispatch({
 				type: 'ADD_CURRENCY',

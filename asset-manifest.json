@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/currency-charts/static/css/main.d23177b3.chunk.css",
-    "main.js": "/currency-charts/static/js/main.5e93da2c.chunk.js",
-    "main.js.map": "/currency-charts/static/js/main.5e93da2c.chunk.js.map",
+    "main.js": "/currency-charts/static/js/main.fe28074d.chunk.js",
+    "main.js.map": "/currency-charts/static/js/main.fe28074d.chunk.js.map",
     "runtime-main.js": "/currency-charts/static/js/runtime-main.e02248e3.js",
     "runtime-main.js.map": "/currency-charts/static/js/runtime-main.e02248e3.js.map",
     "static/js/2.46500fd6.chunk.js": "/currency-charts/static/js/2.46500fd6.chunk.js",
     "static/js/2.46500fd6.chunk.js.map": "/currency-charts/static/js/2.46500fd6.chunk.js.map",
     "index.html": "/currency-charts/index.html",
-    "precache-manifest.22fd976d3f23c04e40eaf866069af61c.js": "/currency-charts/precache-manifest.22fd976d3f23c04e40eaf866069af61c.js",
+    "precache-manifest.13e05d85003c810e216f019819352f00.js": "/currency-charts/precache-manifest.13e05d85003c810e216f019819352f00.js",
     "service-worker.js": "/currency-charts/service-worker.js",
     "static/css/main.d23177b3.chunk.css.map": "/currency-charts/static/css/main.d23177b3.chunk.css.map",
     "static/js/2.46500fd6.chunk.js.LICENSE.txt": "/currency-charts/static/js/2.46500fd6.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e02248e3.js",
     "static/js/2.46500fd6.chunk.js",
     "static/css/main.d23177b3.chunk.css",
-    "static/js/main.5e93da2c.chunk.js"
+    "static/js/main.fe28074d.chunk.js"
   ]
 }
